@@ -135,15 +135,19 @@ export default function Home() {
           food <br></br>delivery like never before
         </p>
         <div className="pb-[50px] max-w-[1120px] mx-auto flex justify-between flex-wrap">
-          <div className="md:basis-[30%] basis-[97%] m-[1.5%] hover:scale-115 transition-[0.5s]">
-            <img src="/images/iphone1.png" className="w-[100%] h-[100%]" />
+
+          <div className="md:basis-[30%] basis-[97%] m-[1.5%] group overflow-hidden">
+            <img src="/images/iphone1.png" className="w-[100%] h-[100%] group-hover:scale-115 transition-[0.5s]" />
           </div>
-          <div className="md:basis-[30%] basis-[97%] m-[1.5%] hover:scale-105 transition-[0.5s]">
-            <img src="/images/iphone.png" className="w-[100%] h-[100%]" />
+
+          <div className="md:basis-[30%] basis-[97%] m-[1.5%] group overflow-hidden">
+            <img src="/images/iphone.png" className="w-[100%] h-[100%] group-hover:scale-105 transition-[0.5s]" />
           </div>
-          <div className="md:basis-[30%] basis-[97%] m-[1.5%] hover:scale-115 transition-[0.5s]">
-            <img src="/images/iphone2.png" className="w-[100%] h-[100%]" />
+
+          <div className="md:basis-[30%] basis-[97%] m-[1.5%] group overflow-hidden">
+            <img src="/images/iphone2.png" className="w-[100%] h-[100%] group-hover:scale-115 transition-[0.5s] " />
           </div>
+
         </div>
       </section>
 
