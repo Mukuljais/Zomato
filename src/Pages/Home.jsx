@@ -1,6 +1,5 @@
 import React from "react";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
-import { MdArrowRight } from "react-icons/md";
 import CardData from "../Common/CardData";
 import Footer from "../Common/Footer";
 
