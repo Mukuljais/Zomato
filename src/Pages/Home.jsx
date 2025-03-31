@@ -42,11 +42,11 @@ export default function Home() {
                 className="w-[200px] hover:scale-105 transition-[0.5s] cursor-pointer"
               />
             </div>
-            
+
             <p className="pb-3 md:flex md:text-[white] md:items-center md:text-[22px] md:animate-bounce md:cursor-pointer hidden">
               Scroll down <MdKeyboardDoubleArrowDown />
             </p>
-        
+
             <button className="m-0 lg:hidden md:hidden fixed bottom-[0px] bg-[red] py-3 w-[100%] text-[white] font-bold cursor-pointer text-[20px]">
               Order on app
             </button>
@@ -54,7 +54,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="scr" className="bg-[url('/images/bg2.jpg')] bg-cover bg-center bg-no-repeat">
+      <section
+        id="scr"
+        className="bg-[url('/images/bg2.jpg')] bg-cover bg-center bg-no-repeat"
+      >
         {/* contents div*/}
         <div>
           <div className="flex flex-col items-center justify-end">
@@ -134,19 +137,26 @@ export default function Home() {
           food <br></br>delivery like never before
         </p>
         <div className="pb-[50px] max-w-[1120px] mx-auto flex justify-between flex-wrap">
-
           <div className="md:basis-[30%] basis-[97%] m-[1.5%] group overflow-hidden">
-            <img src="/images/iphone1.png" className="w-[100%] h-[100%] group-hover:scale-115 transition-[0.5s]" />
+            <img
+              src="/images/iphone1.png"
+              className="w-[100%] h-[100%] group-hover:scale-115 transition-[0.5s]"
+            />
           </div>
 
           <div className="md:basis-[30%] basis-[97%] m-[1.5%] group overflow-hidden">
-            <img src="/images/iphone.png" className="w-[100%] h-[100%] group-hover:scale-105 transition-[0.5s]" />
+            <img
+              src="/images/iphone.png"
+              className="w-[100%] h-[100%] group-hover:scale-105 transition-[0.5s]"
+            />
           </div>
 
           <div className="md:basis-[30%] basis-[97%] m-[1.5%] group overflow-hidden">
-            <img src="/images/iphone2.png" className="w-[100%] h-[100%] group-hover:scale-115 transition-[0.5s] " />
+            <img
+              src="/images/iphone2.png"
+              className="w-[100%] h-[100%] group-hover:scale-115 transition-[0.5s] "
+            />
           </div>
-
         </div>
       </section>
 
@@ -155,7 +165,6 @@ export default function Home() {
       </section>
 
       <section>
-
         <img
           src="/images/eter.png"
           className="block mx-auto lg:pt-[200px] md:pt-[150px] pt-[100px]"
@@ -166,15 +175,37 @@ export default function Home() {
         </h2>
 
         <div className="max-w-[1520px] mx-auto flex justify-between flex-wrap py-[50px]">
+          <CardData
+            image={"/images/zomato.jpg"}
+            title={"Zomato"}
+            para={"Get the app now to start ordering your  favorite dishes!"}
+            out={"Check it out"}
+          ></CardData>
 
-          <CardData image={"/images/zomato.jpg"} title={"Zomato"} para={"Get the app now to start ordering your  favorite dishes!"} out={"Check it out"}></CardData>
+          <CardData
+            image={"/images/blinkit.png"}
+            title={"blinkit"}
+            para={
+              "Choose from 10,000+ products & get them delivered in minutes"
+            }
+            out={"Check it out"}
+          ></CardData>
 
-          <CardData image={"/images/blinkit.png"} title={"blinkit"} para={"Choose from 10,000+ products & get them delivered in minutes"} out={"Check it out"}></CardData>
+          <CardData
+            image={"/images/dis.jpg"}
+            title={"district"}
+            para={
+              "The best of events, movies, dining, and everything you love!"
+            }
+            out={"Check it out"}
+          ></CardData>
 
-          <CardData image={"/images/dis.jpg"} title={"district"} para={"The best of events, movies, dining, and everything you love!"} out={"Check it out"}></CardData>
-
-          <CardData image={"/images/h.jpg"} title={"hyperpure"} para={"Offering complete supply chain solution for your restaurant"} out={"Check it out"}></CardData>
-
+          <CardData
+            image={"/images/h.jpg"}
+            title={"hyperpure"}
+            para={"Offering complete supply chain solution for your restaurant"}
+            out={"Check it out"}
+          ></CardData>
         </div>
       </section>
 
@@ -204,7 +235,10 @@ export default function Home() {
           </div>
 
           <div className="md:basis-[50%] basis-[100%] group overflow-hidden">
-            <img src="/images/qr.jpg" className="rounded-4xl group-hover:scale-102 transition-[0.5s] group-hover:rounded-4xl" />
+            <img
+              src="/images/qr.jpg"
+              className="rounded-4xl group-hover:scale-102 transition-[0.5s] group-hover:rounded-4xl"
+            />
           </div>
         </div>
       </section>
