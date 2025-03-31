@@ -107,7 +107,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="p-5 mt-[20px] border-t-[1px]">
+          <div className="p-5 mt-[20px] border-t-[1px] border-[solid] border-[grey]">
             <p className="pt-[20px] text-[grey] text-[12px]">
               By continuing past this page, you agree to our Terms of Service,
               Cookie Policy, Privacy Policy and Content Policies. All trademarks
